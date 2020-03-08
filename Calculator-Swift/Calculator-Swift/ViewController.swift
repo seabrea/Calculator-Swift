@@ -18,6 +18,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    @IBAction func nextViewController() {
+        navigationController?.pushViewController(ProtocolViewController(), animated: true)
+    }
+    
     
     @IBAction func addNumberToShowLabel(sender: UIButton) {
         

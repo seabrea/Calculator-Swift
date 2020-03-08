@@ -18,7 +18,13 @@
 		94E92A3D241334B5003D6B74 /* Operatordelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E92A3C241334B5003D6B74 /* Operatordelete.swift */; };
 		94E92A3F241334DF003D6B74 /* OperatorDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E92A3E241334DF003D6B74 /* OperatorDivision.swift */; };
 		94E92A41241334FC003D6B74 /* OperatorMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E92A40241334FC003D6B74 /* OperatorMultiplication.swift */; };
-		94E92A4324133520003D6B74 /* OperatorEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E92A4224133520003D6B74 /* OperatorEqual.swift */; };
+		94E92A462413C10D003D6B74 /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E92A442413C10D003D6B74 /* ProtocolViewController.swift */; };
+		94E92A472413C10D003D6B74 /* ProtocolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94E92A452413C10D003D6B74 /* ProtocolViewController.xib */; };
+		94E92A4A2413C35E003D6B74 /* OperatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E92A492413C35E003D6B74 /* OperatorProtocol.swift */; };
+		94E92A4C2413E2E7003D6B74 /* CalculatorAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E92A4B2413E2E7003D6B74 /* CalculatorAdd.swift */; };
+		94E92A4E241504AD003D6B74 /* CalculatorDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E92A4D241504AD003D6B74 /* CalculatorDelete.swift */; };
+		94E92A50241504DB003D6B74 /* CalculatorMulite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E92A4F241504DB003D6B74 /* CalculatorMulite.swift */; };
+		94E92A52241504E7003D6B74 /* CalculatorDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E92A51241504E7003D6B74 /* CalculatorDivision.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +41,13 @@
 		94E92A3C241334B5003D6B74 /* Operatordelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operatordelete.swift; sourceTree = "<group>"; };
 		94E92A3E241334DF003D6B74 /* OperatorDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorDivision.swift; sourceTree = "<group>"; };
 		94E92A40241334FC003D6B74 /* OperatorMultiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorMultiplication.swift; sourceTree = "<group>"; };
-		94E92A4224133520003D6B74 /* OperatorEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorEqual.swift; sourceTree = "<group>"; };
+		94E92A442413C10D003D6B74 /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
+		94E92A452413C10D003D6B74 /* ProtocolViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProtocolViewController.xib; sourceTree = "<group>"; };
+		94E92A492413C35E003D6B74 /* OperatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorProtocol.swift; sourceTree = "<group>"; };
+		94E92A4B2413E2E7003D6B74 /* CalculatorAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorAdd.swift; sourceTree = "<group>"; };
+		94E92A4D241504AD003D6B74 /* CalculatorDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorDelete.swift; sourceTree = "<group>"; };
+		94E92A4F241504DB003D6B74 /* CalculatorMulite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorMulite.swift; sourceTree = "<group>"; };
+		94E92A51241504E7003D6B74 /* CalculatorDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorDivision.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 		94E92A2024132A78003D6B74 /* Calculator-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				94E92A482413C112003D6B74 /* 面向协议 */,
 				94E92A352413325C003D6B74 /* 面向对象 */,
 				94E92A2124132A78003D6B74 /* AppDelegate.swift */,
 				94E92A2324132A78003D6B74 /* SceneDelegate.swift */,
@@ -76,6 +89,8 @@
 				94E92A2A24132A7B003D6B74 /* Assets.xcassets */,
 				94E92A2C24132A7B003D6B74 /* LaunchScreen.storyboard */,
 				94E92A2F24132A7B003D6B74 /* Info.plist */,
+				94E92A442413C10D003D6B74 /* ProtocolViewController.swift */,
+				94E92A452413C10D003D6B74 /* ProtocolViewController.xib */,
 			);
 			path = "Calculator-Swift";
 			sourceTree = "<group>";
@@ -88,9 +103,20 @@
 				94E92A3C241334B5003D6B74 /* Operatordelete.swift */,
 				94E92A3E241334DF003D6B74 /* OperatorDivision.swift */,
 				94E92A40241334FC003D6B74 /* OperatorMultiplication.swift */,
-				94E92A4224133520003D6B74 /* OperatorEqual.swift */,
 			);
 			path = "面向对象";
+			sourceTree = "<group>";
+		};
+		94E92A482413C112003D6B74 /* 面向协议 */ = {
+			isa = PBXGroup;
+			children = (
+				94E92A492413C35E003D6B74 /* OperatorProtocol.swift */,
+				94E92A4B2413E2E7003D6B74 /* CalculatorAdd.swift */,
+				94E92A4D241504AD003D6B74 /* CalculatorDelete.swift */,
+				94E92A4F241504DB003D6B74 /* CalculatorMulite.swift */,
+				94E92A51241504E7003D6B74 /* CalculatorDivision.swift */,
+			);
+			path = "面向协议";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E92A472413C10D003D6B74 /* ProtocolViewController.xib in Resources */,
 				94E92A2E24132A7B003D6B74 /* LaunchScreen.storyboard in Resources */,
 				94E92A2B24132A7B003D6B74 /* Assets.xcassets in Resources */,
 				94E92A2924132A78003D6B74 /* Main.storyboard in Resources */,
@@ -165,14 +192,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E92A3724133296003D6B74 /* OperatorBase.swift in Sources */,
+				94E92A4A2413C35E003D6B74 /* OperatorProtocol.swift in Sources */,
+				94E92A4E241504AD003D6B74 /* CalculatorDelete.swift in Sources */,
+				94E92A4C2413E2E7003D6B74 /* CalculatorAdd.swift in Sources */,
+				94E92A462413C10D003D6B74 /* ProtocolViewController.swift in Sources */,
 				94E92A41241334FC003D6B74 /* OperatorMultiplication.swift in Sources */,
-				94E92A4324133520003D6B74 /* OperatorEqual.swift in Sources */,
 				94E92A2624132A78003D6B74 /* ViewController.swift in Sources */,
 				94E92A3D241334B5003D6B74 /* Operatordelete.swift in Sources */,
 				94E92A2224132A78003D6B74 /* AppDelegate.swift in Sources */,
 				94E92A3B241334A4003D6B74 /* OperatorAdd.swift in Sources */,
 				94E92A2424132A78003D6B74 /* SceneDelegate.swift in Sources */,
 				94E92A3F241334DF003D6B74 /* OperatorDivision.swift in Sources */,
+				94E92A52241504E7003D6B74 /* CalculatorDivision.swift in Sources */,
+				94E92A50241504DB003D6B74 /* CalculatorMulite.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
