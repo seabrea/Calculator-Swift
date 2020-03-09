@@ -15,6 +15,9 @@ enum CalculateNumberType {
 
 protocol ProtocolOperator {
     
-    func execut() -> Float;
-    func willcalculatorNum(_ number: Float, _ type: CalculateNumberType);
+    var leftNum: Float { get set }
+    var rightNum: Float { get set }
+    
+    func execut() -> Float
+    func willcalculatorNum(_ number: Float, _ type: CalculateNumberType)
 }
